@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+.background{
+  overflow: auto;
+  background-color: orange
+}
+
+.Header{
+  overflow: auto;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+
+
+.Main{
+  display:table;
+  background-color: rgb(68, 168, 1);
+  overflow: auto;
+  height: 500px;
+  width: 42%;
+  margin: auto;
+}
+
+.selectionArea {
+  display: table-cell;
+  margin:auto;
+  font-size:0;
+  width:90%;
+  height:90%;
+}
+
+
+.row {
+  display: inline-block;
+  height:450px;
+  width:100px;
+  overflow: auto;
+  border: 3px solid #ddd;
+  margin:10px;
+}
+
+.rowImg{
+  width: 80px;
+  height: 375px;
+  margin: 10px;
+  }
+
+.rowSelectButton {
+  background-color: rgb(255, 0, 0);
+  border-style: solid;
+  font-family: 'Delius', cursive;;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 5px;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.rowSelectButton:hover {background-color: #722c2c}
+
+.outputArea{
+  display: inline-block;
+  height:450px;
+  overflow: auto;
+  border: 3px solid #ddd;
+  background: #7e6839;
+  margin-left:30px;
+}
+
+.outputWindow{
+  height:200px;
+  width:550px;
+  border: 1px solid rgb(255, 217, 0);
+  background: rgb(255, 0, 0);
+  margin:10px;
+}
+
+.storyText{  
+  font-size: 38px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.userButton {
+  display: inline-block;
+  background: rgb(255, 0, 0);
+  border: none;
+  width: 550px;
+  margin: 10px;
+  font-size: 26px;
+  height: 50px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
+.userButton:hover {background-color: #722c2c}
+
+
+
